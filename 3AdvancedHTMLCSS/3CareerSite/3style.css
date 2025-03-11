@@ -7,10 +7,25 @@ p {
 }
 
 body {
-    background-color: azure;
+    background-image: url("picture");
 }
 
 a {
     font-size: 16px;
     font-style: italic;
+}
+
+.header {
+    border-style: solid;
+    background-color: lightblue;
+}
+
+.content {
+    background-color: lightblue;
+    height: 80%;
+    width: 70%;
+}
+
+.footer {
+    background-color: lightblue;
 }
