@@ -1,0 +1,32 @@
+body {
+    background-image: url(imgs/Mustang.jpg);
+}
+
+h1 {
+    text-align: left;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    text-align: left;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-indent: 1.4cm;
+}
+
+p {
+    text-align: left;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-indent: 1.4cm;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    text-emphasis-color: yellow;
+
+}

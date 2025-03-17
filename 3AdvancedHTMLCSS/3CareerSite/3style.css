@@ -15,18 +15,18 @@ a {
     font-style: italic;
 }
 
-.header {
+header {
     border-style: solid;
     background-color: lightblue;
 }
 
-.content {
+content {
     background-color: lightblue;
     height: 80%;
     width: 70%;
 }
 
-.footer {
+footer {
     background-color: lightblue;
 }
 
