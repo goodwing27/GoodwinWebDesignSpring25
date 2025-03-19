@@ -5,28 +5,26 @@ body {
 h1 {
     text-align: left;
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 h2 {
-    text-align: left;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-indent: 1.4cm;
+    text-indent: 2cm;
 }
 
 p {
-    text-align: left;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-indent: 1.4cm;
+    color: black;
+    text-indent: 2cm;
 }
 
 footer {
     text-align: center;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: medium;
-    text-emphasis-color: yellow;
+    color: blue;
+    background-color: black;
+}
 
+article {
+    background-color: white;
+    opacity: .6;
+    color: black;
 }
