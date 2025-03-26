@@ -28,9 +28,20 @@ content {
 
 footer {
     background-color: lightblue;
+    text-align: center;
 }
 
-.job-title{
+.job-title {
     font-weight: bold;
     color: maroon;
- }
+}
+
+.large-list {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.large-list ul {
+    font-size: 18px;
+    font-weight: normal;
+}
