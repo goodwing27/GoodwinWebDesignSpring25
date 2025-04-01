@@ -1,0 +1,18 @@
+body {
+    background-color: aqua;
+}
+
+p {
+    border: 10px solid black;
+    padding: 10px;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    background-color: rebeccapurple;
+    color: chartreuse;
+}
+
+div {
+    border: 10px solid pink;
+    margin: 20px;
+}
