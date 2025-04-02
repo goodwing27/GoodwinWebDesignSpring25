@@ -1,37 +1,33 @@
-img{
-    height:250px;
-    width:250px;
-
-    /* add a rule to float an img left */
-   
+img {
+    height: 250px;
+    width: 250px;
+    float: left;
 }
 
-/* add a rule for figcaption*/
+figcaption {
+    border: solid black 4px;
+    padding: 1em;
+    margin: 1em;
+    width: 50%;
+    float: right;
+}
 
-
-
-
-
-
-/* Other styles */
-
-
-body{
-    font-family:Helvetica;
+body {
+    font-family: Helvetica;
     font-size: 16px;
-    background-color:AliceBlue;
+    background-color: AliceBlue;
 }
 
-header{
-    font-family:cursive;
-    font-size:32px;
-    text-align:center;
+header {
+    font-family: cursive;
+    font-size: 32px;
+    text-align: center;
 }
 
-.gallery-item{
-    border:2px dashed black;
-    width:80%;
-    margin:25px;
-    padding:10px;
-    overflow:hidden;
+.gallery-item {
+    border: 2px dashed black;
+    width: 80%;
+    margin: 25px;
+    padding: 10px;
+    overflow: hidden;
 }
