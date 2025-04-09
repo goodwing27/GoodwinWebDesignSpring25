@@ -3,6 +3,6 @@ img {
     height: 350px;
     filter: grayscale(10);
     filter: blur(10px);
-    
+    filter: hue-rotate(45deg);
     filter: invert(20%px) 
 }

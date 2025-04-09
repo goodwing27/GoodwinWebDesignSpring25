@@ -1,0 +1,8 @@
+img {
+    filter: invert(50);
+    width: 400px;
+}
+
+.img:hover {
+    filter: invert(0);
+}
