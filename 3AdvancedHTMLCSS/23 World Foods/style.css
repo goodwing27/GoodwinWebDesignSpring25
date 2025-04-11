@@ -6,6 +6,10 @@
     filter: hue-rotate(200deg);
 }
 
+.platter:hover .label {
+    visibility: visible;
+}
+
 #fajitas:hover {
     height: 200px;
     width: 200px;
@@ -35,10 +39,25 @@
     width: 200px;
     background-image: url("https://codehs.com/uploads/1929782939fb200100f4118e25bdca40");
 }
+
 #Pierogi:hover {
     height: 200px;
     width: 200px;
     background-image: url("https://codehs.com/uploads/de4f6e02deb0087f1f5b1ad1a7dcaba8");
+}
+
+.platter:hover {
+    animation: serveFilter 3s forwards;
+}
+
+@keyframes serveFilter {
+    from {
+       height: 200px; width: 200px;
+    }
+    
+    to {
+       height: 400px; width: 400px;
+    }
 }
 
 /* Put your styles ABOVE this line */
