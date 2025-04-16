@@ -46,18 +46,10 @@
     background-image: url("https://codehs.com/uploads/de4f6e02deb0087f1f5b1ad1a7dcaba8");
 }
 
-.platter:hover {
-    animation: serveFilter 3s forwards;
-}
-
-@keyframes serveFilter {
-    from {
-       height: 200px; width: 200px;
-    }
-    
-    to {
-       height: 400px; width: 400px;
-    }
+.platter:hover{
+    transform: rotate(360deg);
+    height: 400px;
+    width: 400px;
 }
 
 /* Put your styles ABOVE this line */
@@ -67,13 +59,14 @@ div.platter {
     height: 200px;
     width: 200px;
     background-image: url("https://codehs.com/uploads/89cf9fba5b5692f3062d7b671ace4feb");
+    transition: height 2s, width 2s, background-image 2.5s, transform 3s;
 
 }
 
 .label {
     color: white;
     text-shadow: 2px 2px 3px gray;
-    visibility: hidden; // hide the text for now
+    visibility: hidden;
 }
 
 img {
