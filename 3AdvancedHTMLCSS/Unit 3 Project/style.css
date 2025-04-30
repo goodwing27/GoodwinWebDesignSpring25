@@ -1,7 +1,25 @@
 header {
     text-align: center;
+    color: white;
     font-size: 25px;
+    background-image: url(imgs/turf.jpg);
 
+}
+
+button {
+    background-color: brown;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 15px;
+    outline: none;
+    transition: color 2s
+}
+
+.clickable:hover {
+    background-color: burlywood;
 }
 
 .subTitle {
@@ -12,11 +30,11 @@ p {
     font-size: 20px;
 }
 
-img {
+.img {
     width: 500px;
 }
 
 body {
-    background-color: lightblue;
+    background-color: #BFD5BE;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
