@@ -43,17 +43,18 @@ p {
     font-size: 20px;
 }
 
-.img {
-    width: 500px;
-}
-
 body {
     background-color: #BFD5BE;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.pie {
-    width: 400px;
-    height: 400px;
-    background-image: conic-gradient(orange 64%, blue 64%, blue 81%, black 81%);
-    border-radius: 50%
+
+
+@keyframes mymove {
+    from {left: 25px;}
+    to {right: 100px;}
   }
+  
+.Picture {
+    animation: mymove 10s;
+    
+}
