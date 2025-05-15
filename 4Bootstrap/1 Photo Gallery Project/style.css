@@ -35,7 +35,7 @@ div.front-logo h1 {
     margin: 50px;
 }
 
-main.col-md-2 {
+main .col-md-2 {
     height: 200px;
     padding: 2em;
     margin-top: 2em;
