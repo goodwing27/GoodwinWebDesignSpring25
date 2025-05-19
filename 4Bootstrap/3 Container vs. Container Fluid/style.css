@@ -1,15 +1,20 @@
 header {
     text-align: center;
-    background-color: green;
-    color: white;
+    background-color: #0A75BC;
+    color: #FCE029;
     margin: 25px;
     padding: 40px;
 }
 
 p {
-    color: green;
+    color: #0A75BC;
     font-size: 20px;
 }
-body{
+
+body {
     font-family: monospace;
+}
+
+body {
+    background-color: #FCE029;
 }
