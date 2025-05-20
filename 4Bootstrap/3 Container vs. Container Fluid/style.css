@@ -7,14 +7,34 @@ header {
 }
 
 p {
-    color: #0A75BC;
+    color: #FCE029;
     font-size: 20px;
 }
 
 body {
     font-family: monospace;
+    color: #FCE029;
+    background-image: url(imgs/Bananas.jpg);
 }
 
-body {
+img {
+    height: 200px;
+    width: 200px;
+}
+
+p:hover {
     background-color: #FCE029;
+    color: #0A75BC;
+}
+
+.container {
+    background-color: #0A75BC;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.container-fluid {
+    background-color: #0A75BC;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
