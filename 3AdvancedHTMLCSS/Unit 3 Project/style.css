@@ -48,9 +48,9 @@ body {
 }
 
 img {
-    filter: blur(10px);
+    filter: saturate(25%);
 }
 
 img:hover {
-    filter: blur(0px);
+    filter: saturate(150%);
 }
