@@ -4,6 +4,7 @@ body {
     margin-top: 80px;
     background-color: lightblue;
 }
+header{background-color: darkblue;}
 
 h2 {
     color: #343a40;
@@ -36,4 +37,5 @@ footer a:hover {
     color: #f8f9fa;
     text-decoration: underline;
 }
+
 
